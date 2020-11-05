@@ -20,6 +20,8 @@ Jag är lite full-stack developer där jag gillar meka i back-end och i front-en
 
 Hur kändes det att göra din egna layout och styla den? Gick det bra?:
 
-Jag använde mig utav dbwebb layouten då det finns många coola exempel redan som jag har kollar in på och ändrat lite. Jag skulle gärna vilja fortsätta med denna layouten och CSS:en vi får här i början då jag skulle vilja fokusera mera på designen än CSS som vi redan gjort i htmlphp
+Jag använde mig utav dbwebb layouten då jag ville ha kvar strukturen och ville att all css som finns i docs och example skulle stanna kvar. Rester ändrade jag lite, som background color, containers och navbaren så den ändrar färg vid hover.
 
 Vilken är din TIL för detta kmom?:
+
+Nästan allt, då kan aldrig använt mig utav git-hub och pico.
