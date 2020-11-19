@@ -1,4 +1,5 @@
 ---
+Template: kmom
 Title: Kmom02
 Description: Report for Kmom02.
 ---
@@ -30,4 +31,4 @@ Jag delade upp och fixa koden enligt SASS som går att göra.
 
 Vilken är din TIL för detta kmom?
 
-Jag lärde mig mycket om SASS, basically SASS är ett TIL. 
+Jag lärde mig mycket om SASS, basically SASS är ett TIL.

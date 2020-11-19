@@ -6119,6 +6119,114 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.landingpage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5em;
+  padding: 0 2em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  border: 1px solid black;
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  width: 100%;
+  border-radius: 2em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.kmom-box p {
+  text-decoration: none;
+  color: black;
+}
+
+.kmom.box a:hover {
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+  .landingpage h1,
+.kmom-box,
+.kmom-box.project {
+    grid-column: span 1;
+  }
+
+  .landingpage {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+
+  .kmom-box {
+    border-radius: 15em;
+  }
+}
+.kmom-andingpage {
+  display: grid;
+  padding: 0 1em;
+  gap: 1em;
+}
+
+.nav-box {
+  grid-row: 2;
+  justify-self: left;
+}
+
+.kmom-content {
+  grid-row: 2;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.kmom-nav {
+  width: 10em;
+}
+.kmom-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.kmom-nav ul li {
+  margin-left: 2.5em;
+  padding: 0;
+  margin-top: 0.5em;
+  font-weight: bold;
+}
+
+.kmom-nav a, .kmom-nav-toggle {
+  color: #333;
+}
+
+.kmom-nav .active a, .kmom-nav a:hover, .kmom-nav-toggle:hover {
+  color: #3b440d;
+}
+
+.kmom-nav a:hover, .kmom-nav-toggle:hover {
+  color: white;
+}
+
+.kmom-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .nav-box {
+    grid-row: -1;
+    display: none !important;
+  }
+}
 p {
   font-family: "Inconsolata", sans-serif;
 }
